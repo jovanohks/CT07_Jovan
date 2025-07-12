@@ -9,5 +9,5 @@ function draw(){
     fill(255, 255, 0); //rgb
     ellipse(300,200,100,100); 
     fill(0, 255, 0); //rgb
-    ellipse(300,200,100,100); 
+    ellipse(300,300,100,100); 
 }
