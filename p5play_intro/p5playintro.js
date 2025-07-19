@@ -2,12 +2,12 @@ function setup() {
   // Set up the canvas
   new Canvas(800, 400);
   background(250); //background color
-  ball = new Sprite();
+  
   // Basic shape testing
   // write your codes here
  
   // End Basic shape testing
-
+  ball = new Sprite();
    // Create a bouncing ball sprite
    // write your codes here
 
