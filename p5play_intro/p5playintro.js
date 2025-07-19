@@ -35,4 +35,8 @@ function draw() {
   if (ball.x <0 + ball.diameter /2 || ball.x > width - ball.diameter /2){
     ball.ve1.x *=-1
   }
+  if (ball.x <0 + ball.diameter /2 || ball.x > width - ball.diameter /2){
+    ball.ve1.x *=-1
+  }
+
 }
