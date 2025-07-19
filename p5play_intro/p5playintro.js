@@ -21,7 +21,8 @@ function setup() {
     ball.collider = "dynamic";
     ball.bounciness = 1;
     box= new Sprite();
-    box.x=100
+    box.x=100;
+    box.y=100;
     
    // Create a bouncing ball sprite
    // write your codes here
