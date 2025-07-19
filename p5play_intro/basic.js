@@ -1,7 +1,7 @@
 function setup() {
   // write your codes here
   createCanvas(600,400)
-  background(220);
+  <!--background(220);
 
   // --- Exercise: Area of Triangle ---
   // write your codes here
@@ -23,7 +23,7 @@ function draw(){
   eclipse(100,100,80,50);
   circle(200,200,30);
   rect(30,30,55,50,20,15,10,5);
-  nofill();
+
   quad(20,30,6,40);
   triangle(30,75,58,20,86,75);
 }
