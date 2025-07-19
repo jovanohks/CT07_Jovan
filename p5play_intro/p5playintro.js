@@ -9,7 +9,7 @@ function setup() {
   stroke("pink");
   strokeWeight = 10;
   circle(30,30,50);
-  
+  rect(50,50,100,200)
   // End Basic shape testing
     ball = new Sprite();
     ball.x = 100;
