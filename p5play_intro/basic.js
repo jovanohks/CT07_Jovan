@@ -22,6 +22,6 @@ function setup() {
 function draw(){
   eclipse(100,100,80,50);
   circle(200,200,30);
-  rect(30,30,55,50)
+  rect(30,30,55,50,20,15,10,5);
   triangle(30,75,58,20,86,75);
 }
