@@ -18,5 +18,5 @@ function setup() {
 }
 
 function draw(){
-  eclipse()
+  eclipse(100,100,80,50)
 }
