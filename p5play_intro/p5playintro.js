@@ -15,7 +15,7 @@ function setup() {
     ball.vel.x = 3;
     ball.vel.y = 3;
     ball.collider = "dynamic";
-    ball.bounciness = 1
+    ball.bounciness = 1;
    // Create a bouncing ball sprite
    // write your codes here
 
