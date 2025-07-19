@@ -36,7 +36,7 @@ function draw() {
     fill(0);
     textSize(16);
     text("Ball: ("+int(ball.x)+","+int(ball.y) + ")",10,20);
-    text("Ball: ("+int(MouseX)+","+int(MouseY) + ")",10,40);
+    text("Mouse: ("+int(MouseX)+","+int(MouseY) + ")",10,40);
   if (ball.x <0 + ball.diameter /2 || ball.x > width - ball.diameter /2){
     ball.vel.x *=-1
   }
