@@ -32,4 +32,5 @@ function setup() {
 
 function draw() {
   // write your codes here
+  if (ball.x <0 + ball.diameter /2 || ball.x > width - ball.diameter /2)
 }
