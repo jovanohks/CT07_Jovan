@@ -14,7 +14,7 @@ function setup() {
     ball.color = 'blue';
     ball.vel.x = 3;
     ball.vel.y = 3;
-
+    ball.collider = 
    // Create a bouncing ball sprite
    // write your codes here
 
