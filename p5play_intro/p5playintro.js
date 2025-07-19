@@ -11,10 +11,10 @@ function setup() {
     ball.x = 100;
     ball.y = 200;
     ball.diameter = 40;
-    ball.color = 'blue'
+    ball.color = 'blue';
     ball.vel.x = 3;
     ball.vel.y = 3;
-    
+
    // Create a bouncing ball sprite
    // write your codes here
 
