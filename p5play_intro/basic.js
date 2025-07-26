@@ -25,7 +25,6 @@ function setup() {
   }
   for (let i=2;i<=20;i=i+2){
     console.log(i)
-    textsize =16
     text(i,i*2,i*3)
   }
   // --- Exercise: Age category classification ---
