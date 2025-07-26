@@ -3,6 +3,8 @@ function setup() {
   createCanvas(800,600)
   background(220);
   console.log("hello")
+  let a=5;
+  let b=10;
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
