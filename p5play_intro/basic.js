@@ -27,6 +27,8 @@ function setup() {
     console.log(i)
     text(i,i*2,i*3)
   }
+  let age = 16;
+  if (age <=9)
   // --- Exercise: Age category classification ---
   // write your codes here
 
