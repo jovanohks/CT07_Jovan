@@ -36,6 +36,7 @@ function setup() {
   } else if (age>12){
     console.log("secondary");
   }
+  count = 19;
   while (count >=1){
     console.log(count);
     count--;
