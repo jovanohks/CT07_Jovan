@@ -1,4 +1,5 @@
 // the final game
 function setup(){
-    background(800,600)
+    CreateCanvas(800,600);
+    
 }
