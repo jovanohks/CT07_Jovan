@@ -37,7 +37,7 @@ function setup() {
     console.log("secondary")
   }
   while (count >=1){
-    
+    console.log(count)
   }
   // --- Exercise: Age category classification ---
   // write your codes here
