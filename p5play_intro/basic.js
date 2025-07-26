@@ -43,6 +43,7 @@ function setup() {
   }
   let groceries=["apple","bread","milk"];
   groceries.push("orange")
+  griceries.push("")
   // --- Exercise: Age category classification ---
   // write your codes here
 
