@@ -15,7 +15,7 @@ function setup() {
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
   for(let i =1; i < 10; i++){
-    
+    console.log("counting... "+i)
   }
   // --- Exercise: Age category classification ---
   // write your codes here
