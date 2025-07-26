@@ -29,16 +29,16 @@ function setup() {
   }
   let age = 16;
   if (age <=9){
-    console.log("lower primary")
+    console.log("lower primary");
   } else if (age <=12){
     console.log("upper primary");
 
   } else if (age>12){
-    console.log("secondary")
+    console.log("secondary");
   }
   while (count >=1){
     console.log(count);
-    count--
+    count--;
   }
   // --- Exercise: Age category classification ---
   // write your codes here
