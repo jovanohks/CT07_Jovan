@@ -7,7 +7,8 @@ function setup() {
   let b=10;
   let sum=a+b;
   console.log("sum"+sum);
-  let 
+  let area=0.5*a*b;
+  
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
