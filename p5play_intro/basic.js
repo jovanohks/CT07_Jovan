@@ -46,9 +46,10 @@ function setup() {
   griceries.push("butter");
   groceries.shift();
   groceries.splice(2,2,"kaya");
-  
+
   for(let i=0; i<groceries.length;i++){
     console.log(groceries[i]);
+    
   }
   // --- Exercise: Age category classification ---
   // write your codes here
