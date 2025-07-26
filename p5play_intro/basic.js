@@ -30,7 +30,10 @@ function setup() {
   let age = 16;
   if (age <=9){
     console.log("lower primary")
-  } else if (age >)
+  } else if (age <=12){
+    console.log("upper primary");
+    
+  }
   // --- Exercise: Age category classification ---
   // write your codes here
 
