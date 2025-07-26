@@ -1,7 +1,7 @@
 function setup() {
   // write your codes here
   createCanvas(800,600)
-  //background(220);-->
+  background(220);-->
   console.log("hello")
   // --- Exercise: Area of Triangle ---
   // write your codes here
