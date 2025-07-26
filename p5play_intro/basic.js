@@ -41,6 +41,7 @@ function setup() {
     console.log(count);
     count--;
   }
+  let groceries=["apple"]
   // --- Exercise: Age category classification ---
   // write your codes here
 
