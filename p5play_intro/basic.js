@@ -32,7 +32,9 @@ function setup() {
     console.log("lower primary")
   } else if (age <=12){
     console.log("upper primary");
-    
+
+  } else if (age>12){
+    console.log("secondaru")
   }
   // --- Exercise: Age category classification ---
   // write your codes here
