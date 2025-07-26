@@ -23,7 +23,9 @@ function setup() {
   for(let i=3; i<46; i=i+3){
     console.log(i);
   }
-  for (let i=0;i<22;i=i+2
+  for (let i=0;i<22;i=i+2){
+    console.log(i)
+  }
   // --- Exercise: Age category classification ---
   // write your codes here
 
