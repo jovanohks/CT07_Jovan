@@ -18,7 +18,7 @@ function setup() {
     console.log("counting... "+i)
   }
   for(let i=20; i>1;i++){
-    
+    console.log("counting"+i);
   }
   // --- Exercise: Age category classification ---
   // write your codes here
