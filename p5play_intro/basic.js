@@ -2,11 +2,12 @@ function setup() {
   // write your codes here
   createCanvas(800,600)
   background(220);
-  console.log("hello")
+  console.log("hello");
   let a=5;
   let b=10;
   let sum=a+b;
   console.log("sum"+sum);
+  let 
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
