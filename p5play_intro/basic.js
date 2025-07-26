@@ -36,6 +36,9 @@ function setup() {
   } else if (age>12){
     console.log("secondary")
   }
+  while (count >=1){
+    
+  }
   // --- Exercise: Age category classification ---
   // write your codes here
 
