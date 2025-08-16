@@ -71,4 +71,5 @@ function spawnPipePair(){
     bottomPipe = pipe;
     pipeGroup.add(topPipe);
     pipeGroup.add(bottomPipe);
+    pipeGroup
 }
