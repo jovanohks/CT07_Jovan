@@ -64,7 +64,7 @@ function draw(){
 function spawnPipePair(){
     let gap=50;
     let midY=height /2;
-        pipeGroup = new Group();
+    pipeGroup = new Group();
 
     topPipe = new Sprite(400,midY-gap /2 -200 ,52,320,'static')
     topPipe = pipe;
