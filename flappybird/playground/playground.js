@@ -46,7 +46,7 @@ function draw(){
         bird.rotation = 0;
     }
     fill("blue");
-    textsize(14);
+    textSize(14);
     text('vel.y: '+bird.vel.y.toFixed(2),10,20);
     text('isMoving' + bird.isMoving,10,40);
     text('isSleeping'+bird.isSleeping,10,60);
