@@ -70,7 +70,7 @@ function spawnPipePair(){
     topPipe = pipe;
     topPipe.rotation = 180;
     bottomPipe = new Sprite(400,midY+gap /2 +200 ,52,320,'static');
-    bottomPipe = pipe;
+    bottomPipe.img = pipe;
     pipeGroup.add(topPipe);
     pipeGroup.add(bottomPipe);
     pipeGroup.layer = 0;
