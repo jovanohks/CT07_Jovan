@@ -32,9 +32,10 @@ function setup(){
 function draw(){
     image(bg,0,0,width,height);
     if(kb.presses('space') || mouse.presses('left')){
-        bird.vel.y = -15;
+        bird.vel.y = -5;
         bird.sleeping = false;
     }
+    if(bird.vel.y >1)
     fill("blue");
     textsize(14);
     text('vel.y: '+bird.vel.y.toFixed(2),10,20);
