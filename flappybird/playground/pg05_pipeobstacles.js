@@ -4,6 +4,7 @@ let flapDownImg,flapUpImg,flapMidImg,bg,base;
 let pipeGroup;
 let topPipe;
 let bottomPipe;
+let 
 function preload(){
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
     bg=loadImage('assets/background-night.png');
