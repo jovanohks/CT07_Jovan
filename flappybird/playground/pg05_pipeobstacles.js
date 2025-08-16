@@ -63,5 +63,5 @@ function spawnPipePair(){
     let midY=height /2;
 
 
-    topPipe = new Sprite
+    topPipe = new Sprite(400,midY-)
 }
