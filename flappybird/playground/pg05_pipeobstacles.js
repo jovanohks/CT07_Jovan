@@ -39,6 +39,7 @@ function setup(){
 }
 function draw(){
     image(bg,0,0,width,height);
+    pipeGroup.vel.x = -5;
     if(kb.presses('space') || mouse.presses('left')){
         bird.vel.y = -5;
         bird.sleeping = false;
