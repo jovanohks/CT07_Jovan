@@ -12,6 +12,7 @@ function preload(){
     flapUpImg= loadImage('assets/yellowbird-upflap.png');
     flapDownImg= loadImage('assets/yellowbird-downflap.png');
     pipe=loadImage('assets/pipe-green.png');
+    
 }
 function setup(){
     new Canvas(400,600);
