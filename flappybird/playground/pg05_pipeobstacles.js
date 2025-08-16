@@ -34,7 +34,7 @@ function setup(){
     floor.height= 125;
     floor.collider = "static";
     floor.img = base;
-    pipeGroup = new Group();
+
 }
 function draw(){
     image(bg,0,0,width,height);
@@ -64,7 +64,7 @@ function draw(){
 function spawnPipePair(){
     let gap=50;
     let midY=height /2;
-
+        pipeGroup = new Group();
 
     topPipe = new Sprite(400,midY-gap /2 -200 ,52,320,'static')
     topPipe = pipe;
