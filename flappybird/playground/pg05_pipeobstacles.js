@@ -35,7 +35,7 @@ function setup(){
     floor.collider = "static";
     floor.img = base;
     pipeGroup = new Group();
-    pipeGroup.vel.x = -5;
+
 }
 function draw(){
     image(bg,0,0,width,height);
