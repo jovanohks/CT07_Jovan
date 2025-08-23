@@ -57,7 +57,9 @@ function draw(){
     bird.x +=3
     camera.x =bird.x;
     floor.x = bird.x;
-    if (bird.collides(pipeGroup) || )
+    if (bird.collides(pipeGroup) || bird.collides(floor)){
+        NoLoop()
+    }
     fill("blue");
     textSize(14);
     text('vel.y: '+bird.vel.y.toFixed(2),10,20);
