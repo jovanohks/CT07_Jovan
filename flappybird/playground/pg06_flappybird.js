@@ -62,7 +62,7 @@ function draw(){
         gameoverLabel = new Sprite(width/2,height/2,192,42);
         gameoverLabel.img = gameoverImg;
         gameoverImg.Layer=100;
-        
+        gameoverLabel.x=camera.x
         noLoop();
     }
     fill("blue");
