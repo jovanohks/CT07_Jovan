@@ -59,7 +59,7 @@ function draw(){
     camera.x =bird.x;
     floor.x = bird.x;
     if (bird.collides(pipeGroup) || bird.collides(floor)){
-        
+        gameoverImg
         noLoop();
     }
     fill("blue");
@@ -68,6 +68,7 @@ function draw(){
     text('isMoving' + bird.isMoving,10,40);
     text('isSleeping'+bird.isSleeping,10,60);
     if(frameCount %120 ===60){
+        
         spawnPipePair();
     }
 }
