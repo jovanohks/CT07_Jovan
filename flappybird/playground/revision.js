@@ -4,7 +4,7 @@ function preload(){
     flapMidImg = loadImage('assets/yellowbird-midflap.img');
 }
 function setup(){
-
+    new Canvas(400,600)
 }
 function draw(){
 
