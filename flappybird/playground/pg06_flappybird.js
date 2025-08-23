@@ -59,7 +59,7 @@ function draw(){
     camera.x =bird.x;
     floor.x = bird.x;
     if (bird.collides(pipeGroup) || bird.collides(floor)){
-        gameoverLabel = new Sprite();
+        gameoverLabel = new Sprite(width/2);
         noLoop();
     }
     fill("blue");
