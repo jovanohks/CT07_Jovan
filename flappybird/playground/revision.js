@@ -1,5 +1,5 @@
 //create a sprite with physics
-let Flappybird,bird;
+let flapMidImg,bird;
 function preload(){
     flapMidImg = loadImage('assets/yellowbird-midflap.img');
 }
