@@ -82,7 +82,7 @@ function spawnPipePair(){
     pipeGroup.layer = 0;
     for (let pipe of pipeGroup){
         if (pipe.x < -50){
-            
+            pipe.remove();
         }
     }
 }
