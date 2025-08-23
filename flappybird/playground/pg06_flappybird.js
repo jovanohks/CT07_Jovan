@@ -61,7 +61,8 @@ function draw(){
     if (bird.collides(pipeGroup) || bird.collides(floor)){
         gameoverLabel = new Sprite(width/2,height/2,192,42);
         gameoverLabel.img = gameoverImg;
-        gameoverl
+        gameoverImg.Layer=100;
+        
         noLoop();
     }
     fill("blue");
