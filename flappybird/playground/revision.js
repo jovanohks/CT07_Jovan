@@ -4,7 +4,8 @@ function preload(){
     flapMidImg = loadImage('assets/yellowbird-midflap.img');
 }
 function setup(){
-    new Canvas(400,600)
+    new Canvas(400,600);
+    bird = new SpeechRecognitionResult
 }
 function draw(){
 
