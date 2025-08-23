@@ -70,10 +70,12 @@ function draw(){
     text('vel.y: '+bird.vel.y.toFixed(2),10,20);
     text('isMoving' + bird.isMoving,10,40);
     text('isSleeping'+bird.isSleeping,10,60);
+    while (1==1){
     if(frameCount %90===0){
         
         spawnPipePair();
     }
+}
 }
 function spawnPipePair(){
     let gap=50;
