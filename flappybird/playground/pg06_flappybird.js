@@ -89,9 +89,5 @@ function spawnPipePair(){
     pipeGroup.add(bottomPipe);
     pipeGroup.vel.x = -3;
     pipeGroup.layer = 0;
-    for (let pipe of pipeGroup){
-        if (pipe.x < -50){
-            pipe.remove();
-        }
-    }
+
 }
