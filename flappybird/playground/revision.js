@@ -1,7 +1,7 @@
 //create a sprite with physics
 let flapMidImg,bird;
 function preload(){
-    flapMidImg = loadImage('assets/yellowbird-midflap.img');
+    flapMidImg = loadImage('assets/yellowbird-midflap.png');
 }
 function setup(){
     new Canvas(400,600);
