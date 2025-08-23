@@ -1,5 +1,6 @@
 //create a sprite with physics
-let Flap
+let Flappybird;
+
 function setup(){
 
 }
