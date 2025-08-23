@@ -1,7 +1,7 @@
 //create a sprite with physics
 let Flappybird;
 function preload(){
-    flapMidImg
+    flapMidImg = loadImage()
 }
 function setup(){
 
