@@ -115,5 +115,6 @@ function draw(){
             }
         }
     }
+    drawScore ()
 }
 
