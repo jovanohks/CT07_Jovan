@@ -49,6 +49,7 @@ function setup(){
     startScreenLabel=new Sprite(width /2,height /2 ,50,50,'none');
     startScreenLabel.img = StartScreenImg;
     scoreDigits = new Group();
+    scoreDigits.collider = 'none';
     
 }
 function spawnPipePair(){
