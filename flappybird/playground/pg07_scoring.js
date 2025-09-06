@@ -20,7 +20,9 @@ function preload(){
     pipe=loadImage('assets/pipe-green.png');
     gameoverImg = loadImage('assets/gameover.png');
     StartScreenImg=loadImage('assets/message.png');
-
+    for (let i = 0; i<10; i++){
+        
+    }
 }
 function setup(){
     new Canvas(400,600);
