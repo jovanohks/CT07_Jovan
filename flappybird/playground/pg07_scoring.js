@@ -55,7 +55,7 @@ function draw(){
         bird.visible = true;
         bird.collider = 'dynamic';
         pipeGroup.vel.x = -5;
-        if(kb.presses('space') || mouse.presses('left')){
+        if(kb.presses('space') || mouse.presses()){
             bird.vel.y = -5;
             bird.sleeping = false;
         }
