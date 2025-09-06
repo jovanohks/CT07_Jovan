@@ -52,22 +52,6 @@ function setup(){
     scoreDigits.collider = 'none';
     scoreDigits.layer = 1000;
 }
-function spawnPipePair(){
-    let gap=50;
-
-    let midY=random(250,height-250);
-
-    topPipe = new Sprite(400,midY-gap /2 -200 ,52,320,'kinematic');
-    topPipe.img = pipe;
-    topPipe.rotation = 180;
-    bottomPipe = new Sprite(400,midY+gap /2 +200 ,52,320,'kinematic');
-    bottomPipe.img = pipe;
-    pipeGroup.add(topPipe);
-    pipeGroup.add(bottomPipe);
-    pipeGroup.vel.x = -3;
-    pipeGroup.layer = 0;
-
-}
 
 function draw(){
     image(bg,0,0,width,height);
@@ -118,3 +102,19 @@ function draw(){
     drawScore(width/2,20,score,digitWidth,digitHeight);
 }
 
+function spawnPipePair(){
+    let gap=50;
+
+    let midY=random(250,height-250);
+
+    topPipe = new Sprite(400,midY-gap /2 -200 ,52,320,'kinematic');
+    topPipe.img = pipe;
+    topPipe.rotation = 180;
+    bottomPipe = new Sprite(400,midY+gap /2 +200 ,52,320,'kinematic');
+    bottomPipe.img = pipe;
+    pipeGroup.add(topPipe);
+    pipeGroup.add(bottomPipe);
+    pipeGroup.vel.x = -3;
+    pipeGroup.layer = 0;
+
+}
