@@ -115,6 +115,6 @@ function draw(){
             }
         }
     }
-    drawScore ()
+    drawScore(width/2,20,)
 }
 
