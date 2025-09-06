@@ -118,4 +118,4 @@ function spawnPipePair(){
     pipeGroup.layer = 0;
 
 }
-function drawScore(x,y,score){}
+function drawScore(x,y,score,digitWidth,){}
