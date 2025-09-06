@@ -46,6 +46,23 @@ function setup(){
     startScreenLabel.img = StartScreenImg;
 
 }
+function spawnPipePair(){
+    let gap=50;
+
+    let midY=random(250,height-250);
+
+    topPipe = new Sprite(400,midY-gap /2 -200 ,52,320,'kinematic');
+    topPipe.img = pipe;
+    topPipe.rotation = 180;
+    bottomPipe = new Sprite(400,midY+gap /2 +200 ,52,320,'kinematic');
+    bottomPipe.img = pipe;
+    pipeGroup.add(topPipe);
+    pipeGroup.add(bottomPipe);
+    pipeGroup.vel.x = -3;
+    pipeGroup.layer = 0;
+
+}
+
 function draw(){
     image(bg,0,0,width,height);
     if (kb.presses('space')|| mouse.presses()){
@@ -92,21 +109,5 @@ function draw(){
             }
         }
     }
-}
-function spawnPipePair(){
-    let gap=50;
-
-    let midY=random(250,height-250);
-
-    topPipe = new Sprite(400,midY-gap /2 -200 ,52,320,'kinematic');
-    topPipe.img = pipe;
-    topPipe.rotation = 180;
-    bottomPipe = new Sprite(400,midY+gap /2 +200 ,52,320,'kinematic');
-    bottomPipe.img = pipe;
-    pipeGroup.add(topPipe);
-    pipeGroup.add(bottomPipe);
-    pipeGroup.vel.x = -3;
-    pipeGroup.layer = 0;
-
 }
 
