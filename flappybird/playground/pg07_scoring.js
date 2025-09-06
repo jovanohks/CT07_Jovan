@@ -48,7 +48,8 @@ function setup(){
     pipeGroup = new Group();
     startScreenLabel=new Sprite(width /2,height /2 ,50,50,'none');
     startScreenLabel.img = StartScreenImg;
-
+    scoreDigits = new Group();
+    
 }
 function spawnPipePair(){
     let gap=50;
