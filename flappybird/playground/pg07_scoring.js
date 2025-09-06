@@ -50,7 +50,7 @@ function setup(){
     startScreenLabel.img = StartScreenImg;
     scoreDigits = new Group();
     scoreDigits.collider = 'none';
-    
+    scoreDigits.layer = 1000;
 }
 function spawnPipePair(){
     let gap=50;
