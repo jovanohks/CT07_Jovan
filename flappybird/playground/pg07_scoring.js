@@ -120,4 +120,5 @@ function spawnPipePair(){
 }
 function drawScore(x,y,score,digitWidth,digitHeight){
     let scoreStr= str(score);
+    let totalwidth = scor
 }
