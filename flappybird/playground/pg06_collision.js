@@ -7,7 +7,7 @@ let bottomPipe;
 let pipe;
 let gameoverImg,gameoverLabel;
 let startScreenLabel,StartScreenImg;
-
+let startGame = false;
 function preload(){
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
     bg=loadImage('assets/background-night.png');
@@ -27,7 +27,7 @@ function setup(){
     bird.width = 30;
     bird.height=30;
     bird.img = flapMidImg;
-    bird.collider="dynamic"
+    bird.collider="static"
     bird.mass=2;
     bird.drag=0.05;
     bird.bounciness=1;
@@ -38,6 +38,7 @@ function setup(){
     floor.width = 400;
     floor.height= 125;
     floor.collider = "static";
+    bird.visible = false;
     floor.img = base;
     pipeGroup = new Group();
     startScreenLabel=new Sprite(width /2,height /2 ,50,50,none);
@@ -46,40 +47,48 @@ function setup(){
 }
 function draw(){
     image(bg,0,0,width,height);
-    pipeGroup.vel.x = -5;
-    if(kb.presses('space') || mouse.presses('left')){
-        bird.vel.y = -5;
-        bird.sleeping = false;
+    if (kb.presses('space')|| mouse.presses()){
+        startGame = true;
+        startScreenLabel.visible = false;
     }
-    if(bird.vel.y <-1){
-        bird.img = flapUpImg;
-        bird.rotation=-30;
-    }else if (bird.vel.y >1){
-        bird.img = flapDownImg;
-        bird.rotation=30;
-    }else{
-        bird.img=flapMidImg;
-        bird.rotation = 0;
-    }
-    bird.x +=3
-    camera.x =bird.x;
-    floor.x = bird.x;
-    if (bird.collides(pipeGroup) || bird.collides(floor)){
-        gameoverLabel = new Sprite(width/2,height/2,192,42);
-        gameoverLabel.img = gameoverImg;
-        gameoverImg.Layer=100;
-        gameoverLabel.x=camera.x;
-        noLoop();
-    }
-    fill("blue");
-    textSize(14);
-    text('vel.y: '+bird.vel.y.toFixed(2),10,20);
-    text('isMoving' + bird.isMoving,10,40);
-    text('isSleeping'+bird.isSleeping,10,60);
-    while (1==1){
-        if(frameCount %90===0){
-            
-            spawnPipePair();
+    if (startGame){
+        bird.visible = true;
+        bird.collider = 'dynamic';
+        pipeGroup.vel.x = -5;
+        if(kb.presses('space') || mouse.presses('left')){
+            bird.vel.y = -5;
+            bird.sleeping = false;
+        }
+        if(bird.vel.y <-1){
+            bird.img = flapUpImg;
+            bird.rotation=-30;
+        }else if (bird.vel.y >1){
+            bird.img = flapDownImg;
+            bird.rotation=30;
+        }else{
+            bird.img=flapMidImg;
+            bird.rotation = 0;
+        }
+        bird.x +=3
+        camera.x =bird.x;
+        floor.x = bird.x;
+        if (bird.collides(pipeGroup) || bird.collides(floor)){
+            gameoverLabel = new Sprite(width/2,height/2,192,42);
+            gameoverLabel.img = gameoverImg;
+            gameoverImg.Layer=100;
+            gameoverLabel.x=camera.x;
+            noLoop();
+        }
+        fill("blue");
+        textSize(14);
+        text('vel.y: '+bird.vel.y.toFixed(2),10,20);
+        text('isMoving' + bird.isMoving,10,40);
+        text('isSleeping'+bird.isSleeping,10,60);
+        while (1==1){
+            if(frameCount %90===0){
+                
+                spawnPipePair();
+            }
         }
     }
 }
