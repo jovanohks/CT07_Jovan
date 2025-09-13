@@ -125,7 +125,7 @@ function draw(){
 
             noLoop();
             //restart
-            
+            setTimeout
         }
         fill("blue");
         textSize(14);
