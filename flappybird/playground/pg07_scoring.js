@@ -96,12 +96,11 @@ function draw(){
         text('vel.y: '+bird.vel.y.toFixed(2),10,20);
         text('isMoving' + bird.isMoving,10,40);
         text('isSleeping'+bird.isSleeping,10,60);
-        while (true){
+
             if(frameCount %90===0){
                 
                 spawnPipePair();
             }
-        }
         for (let pipe of pipeGroup){
             let pipeRightEdge = pipe.x + pipe.w /2;
             let birdLeftEdge = bird.x - pipe.w /2;
