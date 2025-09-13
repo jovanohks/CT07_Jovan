@@ -101,6 +101,7 @@ function draw(){
             
             spawnPipePair();
         }
+        drawScore(width/2,20,score,digitWidth,digitHeight);
         for (let pipe of pipeGroup){
             let pipeRightEdge = pipe.x + pipe.w /2;
             let birdLeftEdge = bird.x - pipe.w /2;
