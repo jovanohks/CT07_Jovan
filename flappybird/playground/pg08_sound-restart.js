@@ -124,6 +124,8 @@ function draw(){
             gameoverLabel.x=camera.x;
 
             noLoop();
+            //restart
+            
         }
         fill("blue");
         textSize(14);
