@@ -11,6 +11,8 @@ let startGame = false;
 let score = 0;
 let numberImages = [];
 let scoreDigits;
+let digitWidth = 20;
+let digitHeight=20;
 function preload(){
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
     bg=loadImage('assets/background-night.png');
@@ -98,6 +100,12 @@ function draw(){
                 spawnPipePair();
             }
         }
+        drawScore(width/2,20,score,digitWidth,digitHeight);
+        for (let pipe of pipeGroup){
+            let pipeRightEdge = pipe.x + pipe.w /2;
+            let birdLeftEdge = bird.x - pipe.w /2;
+
+        }
     }
     drawScore(width/2,20,score,digitWidth,digitHeight);
 }
@@ -106,7 +114,7 @@ function spawnPipePair(){
     let gap=50;
 
     let midY=random(250,height-250);
-
+    topPipe.passed = false;
     topPipe = new Sprite(400,midY-gap /2 -200 ,52,320,'kinematic');
     topPipe.img = pipe;
     topPipe.rotation = 180;
@@ -125,6 +133,16 @@ function drawScore(x,y,score,digitWidth,digitHeight){
     for (let i = 0; i < scoreStr.length; i++){
         let digit= int(scoreStr[i]);
         let xPos = startX +i * digitWidth;
-        let digitSprite = new scoreDigits.sprite(xPos,y,digitWidth,digitHeight)
+        let digitSprite = new scoreDigits.sprite(xPos,y,digitWidth,digitHeight);
+        digitSprite.img = scoreDigits[digit];
+    }
+    moveGroup(scoreDigits,camera.x,24);
+
+}
+function moveGroup(group,targetX,spacing){
+    let totalWidth = (group.length -1)* spacing;
+    let startX = (targetX - totalWidth /2);
+    for (let i = 0 ; i < group.length; i++){
+        group[i].x= startX + i * spacing ; 
     }
 }
