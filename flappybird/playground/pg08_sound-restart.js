@@ -28,7 +28,7 @@ function preload(){
     }
     //sounds assets
     flapSound = createAudio('assets/sfx_wing.mp3');
-    pointSound
+    pointSound = createAudio
 }
 function setup(){
 
