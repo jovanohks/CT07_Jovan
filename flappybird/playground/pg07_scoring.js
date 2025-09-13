@@ -27,6 +27,7 @@ function preload(){
     }
 }
 function setup(){
+    let width = 400
     new Canvas(400,600);
     bird = new Sprite();
     bird.x = width /2;
