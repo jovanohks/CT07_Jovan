@@ -121,6 +121,7 @@ function draw(){
             gameoverLabel.img = gameoverImg;
             gameoverImg.Layer=100;
             gameoverLabel.x=camera.x;
+            
             noLoop();
         }
         fill("blue");
