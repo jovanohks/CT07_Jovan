@@ -125,7 +125,9 @@ function draw(){
 
             noLoop();
             //restart
-            setTimeout(() =>
+            setTimeout(() =>{
+                
+            }
                 
             )
         }
