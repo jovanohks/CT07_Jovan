@@ -13,6 +13,7 @@ let numberImages = [];
 let scoreDigits;
 let digitWidth = 20;
 let digitHeight=20;
+let width = 400;
 function preload(){
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
     bg=loadImage('assets/background-night.png');
