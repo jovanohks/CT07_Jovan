@@ -112,7 +112,7 @@ function draw(){
             if( pipe.passed == false && pipeRightEdge < birdLeftEdge){
                 pipe.passed = true;
                 score++; //score +=1; or score = 1+score;
-                pointSound,play();
+                pointSound.play();
         }
     }
         drawScore(width/2,20,score,digitWidth,digitHeight);
@@ -121,7 +121,7 @@ function draw(){
             gameoverLabel.img = gameoverImg;
             gameoverImg.Layer=100;
             gameoverLabel.x=camera.x;
-            failSound.play();
+
             noLoop();
         }
         fill("blue");
