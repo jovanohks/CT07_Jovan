@@ -139,9 +139,7 @@ function draw(){
                 startScreenLabel.x = bird.x;
                 startScreenLabel.y = height;
                 loop();
-            }
-                
-            )
+            },3000);
         }
         fill("blue");
         textSize(14);
