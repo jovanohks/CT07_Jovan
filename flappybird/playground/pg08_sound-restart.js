@@ -82,7 +82,7 @@ function draw(){
         if(bird.vel.y <-1){
             bird.img = flapUpImg;
             bird.rotation=-30;
-            
+
         }else if (bird.vel.y >1){
             bird.img = flapDownImg;
             bird.rotation=30;
@@ -112,6 +112,7 @@ function draw(){
             if( pipe.passed == false && pipeRightEdge < birdLeftEdge){
                 pipe.passed = true;
                 score++; //score +=1; or score = 1+score;
+                pointSound,play();
         }
     }
         drawScore(width/2,20,score,digitWidth,digitHeight);
