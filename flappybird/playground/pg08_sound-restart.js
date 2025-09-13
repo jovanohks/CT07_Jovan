@@ -13,7 +13,7 @@ let numberImages = [];
 let scoreDigits;
 let digitWidth = 20;
 let digitHeight=20;
-let flapSound,pointSound,failSound; //
+let flapSound,pointSound,failSound; //sounds
 function preload(){
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
     bg=loadImage('assets/background-night.png');
@@ -26,6 +26,7 @@ function preload(){
     for (let i = 0; i<10; i++){
         numberImages[i] = loadImage('assets/'+i+'.png');
     }
+    //sounds
 }
 function setup(){
 
