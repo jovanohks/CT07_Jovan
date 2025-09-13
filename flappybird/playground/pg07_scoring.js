@@ -108,7 +108,7 @@ function draw(){
 
         }
     }
-    drawScore(width/2,20,score,digitWidth,digitHeight);
+    //drawScore(width/2,20,score,digitWidth,digitHeight);
 }
 
 function spawnPipePair(){
