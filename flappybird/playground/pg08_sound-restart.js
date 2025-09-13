@@ -128,7 +128,7 @@ function draw(){
             setTimeout(() =>{
                 score = 0;
                 startGame = false;
-                pipesremoveAll();
+                pipeGroup.removeAll()
                 bird.vel.x = 0;
                 bird.vel.y = 0;
                 bird.rotation = 0;
@@ -140,7 +140,7 @@ function draw(){
                 startScreenLabel.y = height;
                 loop();
             },3000);
-        }
+        };
         fill("blue");
         textSize(14);
         text('vel.y: '+bird.vel.y.toFixed(2),10,20);
