@@ -126,7 +126,8 @@ function draw(){
             noLoop();
             //restart
             setTimeout(() =>{
-                
+                score = 0;
+                startGame = false;
             }
                 
             )
