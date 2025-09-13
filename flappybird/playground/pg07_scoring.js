@@ -66,7 +66,7 @@ function draw(){
     if (startGame){
         bird.visible = true;
         bird.collider = 'dynamic';
-        pipeGroup.vel.x = -5;
+
         if(kb.presses('space') || mouse.presses()){
             bird.vel.y = -5;
             bird.sleeping = false;
