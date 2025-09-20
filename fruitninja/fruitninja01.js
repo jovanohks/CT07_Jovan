@@ -7,7 +7,7 @@ function preload(){
     let peach = {whole: loadImage('assets/peachwhole.png')
 
     };
-    let watermelon = {whole:loadImage("assets/")}
+    let watermelon = {whole:loadImage("assets/watermelonwhole.png")}
 }
 function setup(){
     new Canvas(800,600);
