@@ -116,7 +116,7 @@ function draw(){
         }
     }
         drawScore(width/2,20,score,digitWidth,digitHeight);
-        if (bird.collides(pipeGroup) || bird.collides(floor)){
+        if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y <=0 ){
             failSound.play();
             gameoverLabel = new Sprite(width/2,height/2,192,42);
             gameoverLabel.img = gameoverImg;
