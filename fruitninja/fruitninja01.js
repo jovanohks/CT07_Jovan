@@ -3,3 +3,6 @@ function setup(){
 
 
 }
+function draw(){
+    
+}
