@@ -4,7 +4,7 @@ let fruitTypes = [];
 
 function preload(){
     dogoBG = loadImage("assets/dojobackground.png")
-    let peach = {whole:}
+    let peach = {whole: loadImage}
 }
 function setup(){
     new Canvas(800,600);
