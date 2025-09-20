@@ -1,4 +1,4 @@
-let dogo
+let dogoBG;
 function preload(){
     
 }
