@@ -1,3 +1,4 @@
+let dogo
 function preload(){
     
 }
