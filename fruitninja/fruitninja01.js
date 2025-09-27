@@ -30,7 +30,7 @@ function draw(){
 
     }
     sliceFruit();
-    text(('score:',score))
+    text(('score:',score),0,100)
 }
 function sliceFruit(){
     for (let fruit of fruitGroup){
