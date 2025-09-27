@@ -30,7 +30,7 @@ function draw(){
 
     }
     sliceFruit();
-
+    
 }
 function sliceFruit(){
     for (let fruit of fruitGroup){
@@ -64,7 +64,7 @@ function splitFruit(x,y,fruitData){
     right.vel.y = -3;
     right.rotationSpeed = 5;
     score +=1;
-    
+
 }
 function spawnFruit(){
     let fruitData = random(fruitTypes);
