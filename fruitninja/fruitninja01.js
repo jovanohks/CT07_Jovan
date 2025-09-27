@@ -21,5 +21,5 @@ function draw(){
     }
 }
 function spawnFruit(){
-    let fruitData = r
+    let fruitData = random()
 }
