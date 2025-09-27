@@ -1,5 +1,5 @@
 let dojoBG
-let fruitGroup = new moveGroup();
+let fruitGroup = new Group();
 let fruitTypes = [];
 
 function preload(){
