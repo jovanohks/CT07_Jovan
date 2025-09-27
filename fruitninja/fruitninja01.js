@@ -1,11 +1,11 @@
 let dojoBG;
 let fruitGroup;
 let fruitTypes;
-
+let fruitHalves;
 function preload(){
     dojoBG = loadImage("assets/dojobackground.png");
-    let peach = {whole: loadImage('assets/peachwhole.png'),half1: loadImage()};
-    let watermelon = {whole:loadImage("assets/watermelonwhole.png")};
+    let peach = {whole: loadImage('assets/peachwhole.png'),half1: loadImage('assets/peachhalf.png')};
+    let watermelon = {whole:loadImage("assets/watermelonwhole.png") ,half2: loadImage('assets/watermelonhalf.png')};
     fruitTypes = [peach,watermelon];
     
 }
@@ -13,7 +13,7 @@ function setup(){
     new Canvas(800,600);
     world.gravity.y = 10;
     fruitGroup = new Group();
-
+    fruitHalves = new Group();
 }
 function draw(){
     clear();
@@ -41,10 +41,28 @@ function sliceFruit(){
     let d = dist(mouse,x,mouse.y,fruit.x,fruit.y);
     if (d < (fruit.d /2)){
             fruit.sliced = true;
+            const fx = fruit.x;
+            const fy = fruit.y;
             fruit.remove();
+            splitFruit(fx,fy,fruitTypes);
             break;
         }
     }
+}
+function splitFruit(x,y,fruitData){
+    //left half
+    let left = new fruitHalves.Sprite(x-10,y,40,40);
+    left.img = fruitData.half1;
+    left.vel.x = -3;
+    left.vel.y = -3;
+    left.rotationSpeed = -5;
+    //right half
+    let right = new fruitHalves.Sprite(x+10,y,40,40);
+    right.img = fruitData.half1;
+    right.vel.x = 3;
+    right.vel.y = -3;
+    right.rotationSpeed = 5;
+
 }
 function spawnFruit(){
     let fruitData = random(fruitTypes);
