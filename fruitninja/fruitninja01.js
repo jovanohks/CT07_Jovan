@@ -34,9 +34,11 @@ function draw(){
 function sliceFruit(){
     for (let fruit of fruitGroup){
         if (fruit.sliced){
-            
+            continue;
         }
+
     }
+    let d = dist
 }
 function spawnFruit(){
     let fruitData = random(fruitTypes);
