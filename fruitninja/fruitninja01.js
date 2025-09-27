@@ -4,7 +4,7 @@ let fruitTypes;
 
 function preload(){
     dojoBG = loadImage("assets/dojobackground.png");
-    let peach = {whole: loadImage('assets/peachwhole.png')};
+    let peach = {whole: loadImage('assets/peachwhole.png'),half1 = };
     let watermelon = {whole:loadImage("assets/watermelonwhole.png")};
     fruitTypes = [peach,watermelon];
     
