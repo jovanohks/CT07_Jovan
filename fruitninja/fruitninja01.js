@@ -38,7 +38,7 @@ function sliceFruit(){
         }
 
     }
-    let d = dist(mouse,x,mouse.y)
+    let d = dist(mouse,x,mouse.y,fruit.x,fruit.y);
 }
 function spawnFruit(){
     let fruitData = random(fruitTypes);
