@@ -28,6 +28,11 @@ function draw(){
         trail.life = 10;
 
     }
+    sliceFruit();
+
+}
+function sliceFruit(){
+    
 }
 function spawnFruit(){
     let fruitData = random(fruitTypes);
