@@ -64,7 +64,7 @@ function splitFruit(x,y,fruitData){
     right.vel.y = -3;
     right.rotationSpeed = 5;
     score +=1;
-
+    console.log(score);
 }
 function spawnFruit(){
     let fruitData = random(fruitTypes);
