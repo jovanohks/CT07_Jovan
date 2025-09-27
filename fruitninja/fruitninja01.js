@@ -1,11 +1,11 @@
 let dojoBG;
 let fruitGroup;
-let fruitTypes;
+let fruitTypes =[];
 let fruitHalves;
 function preload(){
     dojoBG = loadImage("assets/dojobackground.png");
     let peach = {whole: loadImage('assets/peachwhole.png'),half1: loadImage('assets/peachhalf.png')};
-    let watermelon = {whole:loadImage("assets/watermelonwhole.png") ,half2: loadImage('assets/watermelonhalf.png')};
+    let watermelon = {whole:loadImage("assets/watermelonwhole.png") ,half1: loadImage('assets/watermelonhalf.png')};
     fruitTypes = [peach,watermelon];
     
 }
@@ -44,7 +44,7 @@ function sliceFruit(){
             const fx = fruit.x;
             const fy = fruit.y;
             fruit.remove();
-            splitFruit(fx,fy,fruitTypes);
+            splitFruit(fx,fy,fruit.types);
             break;
         }
     }
