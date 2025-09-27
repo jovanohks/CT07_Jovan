@@ -2,6 +2,7 @@ let dojoBG;
 let fruitGroup;
 let fruitTypes =[];
 let fruitHalves;
+let score = 0;
 function preload(){
     dojoBG = loadImage("assets/dojobackground.png");
     let peach = {whole: loadImage('assets/peachwhole.png'),half1: loadImage('assets/peachhalf.png')};
@@ -62,7 +63,7 @@ function splitFruit(x,y,fruitData){
     right.vel.x = 3;
     right.vel.y = -3;
     right.rotationSpeed = 5;
-    
+
 }
 function spawnFruit(){
     let fruitData = random(fruitTypes);
