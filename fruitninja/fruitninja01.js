@@ -69,7 +69,7 @@ function draw(){
 
 }
 function sliceFruit(){
-    if (mouse.pressing){
+    if (mouse.pressing()){
         for (let fruit of fruitGroup){
             if (fruit.sliced){
                 continue;
