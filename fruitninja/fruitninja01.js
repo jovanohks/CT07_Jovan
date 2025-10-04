@@ -27,7 +27,7 @@ function draw(){
         score = 0;
         missedFruits = 0;
         fruitGroup.removeAll;
-        
+        fruit
     }
     if (gamestate  === "start"){
         fill(0,100);
