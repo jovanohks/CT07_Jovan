@@ -30,6 +30,8 @@ function draw(){
         trail.life = 10;
 
     }
+    //missed fruits
+    if (let fruits of fruitGroup)
     sliceFruit();
     stroke(150,69,69);
     fill(255);
