@@ -53,6 +53,7 @@ function draw(){
         gamestate = "gameover";
         return;
     }
+    if (gamestate === "gameover")
     if (frameCount % 60 == 0){
         spawnFruit();
     }
