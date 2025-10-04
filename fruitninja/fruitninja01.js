@@ -30,7 +30,8 @@ function draw(){
 
     }
     sliceFruit();
-    stroke(150,69,69)
+    stroke(150,69,69);
+    
 }
 function sliceFruit(){
     for (let fruit of fruitGroup){
