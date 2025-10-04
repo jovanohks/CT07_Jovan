@@ -7,8 +7,8 @@ let score = 0;
 let missedFruits = 0;
 let gamestate = 'start';
 let gameStartTime = 0;
-let gameTimer = 0; //elasped 
-let gameDuration = 60; 
+let gameTimer = 0; //elasped time
+let gameDuration = 60; //how long game is
 function preload(){
     dojoBG = loadImage("assets/dojobackground.png");
     let peach = {whole: loadImage('assets/peachwhole.png'),half1: loadImage('assets/peachhalf.png')};
