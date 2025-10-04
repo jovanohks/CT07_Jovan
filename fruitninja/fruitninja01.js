@@ -31,7 +31,7 @@ function draw(){
     }
     sliceFruit();
     textSize(50);
-    text("score: " +score,0,0)
+    text("score: " +score,0,50)
 }
 function sliceFruit(){
     for (let fruit of fruitGroup){
