@@ -61,7 +61,7 @@ function draw(){
         textSize(40);
         text('Game Over.',width /2 ,height /2 -40);
         textSize(24);
-        text("You scored "+ score+ " and had ",width /2 ,height /2 +20);
+        text("You scored "+ score+ " and had "+missedFruits+" Missed Fruits",width /2 ,height /2 +20);
         return;
     }
     if (frameCount % 60 == 0){
