@@ -1,4 +1,3 @@
-const { startTransition } = require("react");
 
 let dojoBG;
 let fruitGroup;
@@ -6,7 +5,7 @@ let fruitTypes =[];
 let fruitHalves;
 let score = 0;
 let missedFruits = 0;
-let gamestate = 'start;
+let gamestate = 'start';
 function preload(){
     dojoBG = loadImage("assets/dojobackground.png");
     let peach = {whole: loadImage('assets/peachwhole.png'),half1: loadImage('assets/peachhalf.png')};
