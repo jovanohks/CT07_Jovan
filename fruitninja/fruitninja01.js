@@ -22,7 +22,9 @@ function setup(){
 function draw(){
     clear();
     image(dojoBG,0,0,width,height);
-    if (kb.presses(" ") || mouse.presses() && gamestate === "start")
+    if (kb.presses(" ") || mouse.presses() && gamestate === "start"){
+        gamestate = play
+    }
     if (gamestate  === "start"){
         fill(0,100);
         rect(0,0,width,height);
