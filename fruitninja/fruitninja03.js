@@ -26,7 +26,7 @@ function setup(){
 function draw(){
     clear();
     image(dojoBG,0,0,width,height);
-    if (kb.presses(" ") || mouse.presses() && gamestate === "start"){
+    if (kb.presses(" ") || mouse.presses() && (gamestate === "start" || gamestate === "end")){
         gamestate = 'play';
         score = 0;
         missedFruits = 0;
