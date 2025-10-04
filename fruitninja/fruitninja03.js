@@ -47,7 +47,8 @@ function draw(){
         text("Press SPACE or CLICK to start",width /2 ,height /2 +20);
         return;
     }
-    gameTimer = floor((millis()))
+    gameTimer = floor((millis() - gameStartTime) /1000);
+    
 
     if (frameCount % 60 == 0){
         spawnFruit();
