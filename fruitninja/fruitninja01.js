@@ -32,7 +32,7 @@ function draw(){
     sliceFruit();
     stroke(150,69,69);
     fill(255);
-    textsize(24);
+    textSize(24);
     textAlign(LEFT,TOP);
     text("score "+score,10,10);
 }
