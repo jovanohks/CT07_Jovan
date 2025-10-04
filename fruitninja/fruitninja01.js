@@ -32,7 +32,10 @@ function draw(){
     }
     //missed fruits
     for (let fruits of fruitGroup){
-        
+        if(fruit.y > height + 50){
+            fruit.remove();
+            
+        }
     }
     sliceFruit();
     stroke(150,69,69);
