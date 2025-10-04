@@ -32,8 +32,8 @@ function draw(){
     }
     //missed fruits
     for (let fruits of fruitGroup){
-        if(fruit.y > height + 50){
-            fruit.remove();
+        if(fruits.y > height + 50){
+            fruits.remove();
             missedFruits++;
             console.log("missedFruits: " , missedFruits);
         }
