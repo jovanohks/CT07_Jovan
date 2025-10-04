@@ -44,7 +44,8 @@ function draw(){
     textSize(24);
     textAlign(LEFT,TOP);
     text("score "+score,10,10);
-    text("Missed Fruits: "+missedFruits,RIGHT,10)
+    text("Missed Fruits: "+missedFruits,10,10)
+    
 }
 function sliceFruit(){
     for (let fruit of fruitGroup){
