@@ -63,7 +63,7 @@ function draw(){
         textSize(24);
         text("You scored "+ score+ " and had "+missedFruits+" missed fruits",width /2 ,height /2 +20);
         text("Press SPACE or CLICK to start",width /2 ,height /2 +60);
-        // return;
+        return;
     }
     if (frameCount % 60 == 0){
         spawnFruit();
