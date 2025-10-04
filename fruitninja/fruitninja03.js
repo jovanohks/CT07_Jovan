@@ -35,6 +35,7 @@ function draw(){
         gameStartTime = millis();
         gameTimer = 0;
     }
+    
     if (gamestate  === "start"){
         fill(0,100);
         rect(0,0,width,height);
