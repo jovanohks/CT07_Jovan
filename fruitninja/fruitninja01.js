@@ -11,7 +11,7 @@ function preload(){
     let peach = {whole: loadImage('assets/peachwhole.png'),half1: loadImage('assets/peachhalf.png')};
     let watermelon = {whole:loadImage("assets/watermelonwhole.png") ,half1: loadImage('assets/watermelonhalf.png')};
     let banana ={whole: loadImage('assets/bananawhole-removebg-preview.png'),half1: loadImage('assets/bhalf2-removebg-preview.png')}
-    fruitTypes = [peach,watermelon];
+    fruitTypes = [peach,watermelon,banana];
     
 }
 function setup(){
