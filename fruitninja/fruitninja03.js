@@ -6,6 +6,7 @@ let fruitHalves;
 let score = 0;
 let missedFruits = 0;
 let gamestate = 'start';
+let g
 function preload(){
     dojoBG = loadImage("assets/dojobackground.png");
     let peach = {whole: loadImage('assets/peachwhole.png'),half1: loadImage('assets/peachhalf.png')};
