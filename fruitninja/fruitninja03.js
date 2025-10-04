@@ -32,6 +32,7 @@ function draw(){
         missedFruits = 0;
         fruitGroup.removeAll();
         fruitHalves.removeAll();
+        
     }
     if (gamestate  === "start"){
         fill(0,100);
