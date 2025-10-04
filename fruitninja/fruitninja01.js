@@ -32,7 +32,6 @@ function draw(){
         textSize(24);
         text("Press SPACE or CLICK to start",width /2 ,height /2 +20);
         return;
-        
     }
 
     if (frameCount % 60 == 0){
