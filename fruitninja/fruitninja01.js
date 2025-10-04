@@ -35,6 +35,7 @@ function draw(){
         if(fruit.y > height + 50){
             fruit.remove();
             missedFruits++;
+            console.log("missedFruits:)
         }
     }
     sliceFruit();
