@@ -12,7 +12,7 @@ function preload(){
     let watermelon = {whole:loadImage("assets/watermelonwhole.png") ,half1: loadImage('assets/watermelonhalf.png')};
     let banana ={whole: loadImage('assets/bananawhole-removebg-preview (1).png'),half1: loadImage('assets/bhalf2-removebg-preview (1).png')}
     //fruitTypes = [peach,watermelon,banana];
-    fruitTypes = [peach,watermelon]
+    fruitTypes = [peach,watermelon];
 }
 function setup(){
     new Canvas(800,600);
