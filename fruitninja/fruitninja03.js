@@ -51,7 +51,7 @@ function draw(){
     text("Time: "+(gameDuration - gameTimer)+"s",400,10);
     if(gameTimer >= gameDuration){
         gamestate = "gameover";
-        
+        return;
     }
     if (frameCount % 60 == 0){
         spawnFruit();
