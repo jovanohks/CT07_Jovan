@@ -3,6 +3,7 @@ let fruitGroup;
 let fruitTypes =[];
 let fruitHalves;
 let score = 0;
+let missedFruits = 0;
 function preload(){
     dojoBG = loadImage("assets/dojobackground.png");
     let peach = {whole: loadImage('assets/peachwhole.png'),half1: loadImage('assets/peachhalf.png')};
@@ -81,5 +82,5 @@ function spawnFruit(){
     fruit.vel.y = random(-10,-14);
     fruit.vel.x = random(-2,2);
     fruit.friction = 0;
-    
+
 }
