@@ -27,6 +27,7 @@ function draw(){
         rect(0,0,width,height);
         fill(255);
         textAlign(CENTER,CENTER);
+        textSize(40);
         
     }
     if (frameCount % 60 == 0){
