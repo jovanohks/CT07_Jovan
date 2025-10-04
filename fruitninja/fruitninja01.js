@@ -25,7 +25,8 @@ function draw(){
     if (gamestate  === start){
         fill(0,100);
         rect(0,0,width,height);
-        
+        fill(255);
+        textAlign()
     }
     if (frameCount % 60 == 0){
         spawnFruit();
