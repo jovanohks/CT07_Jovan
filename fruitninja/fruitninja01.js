@@ -51,6 +51,7 @@ function sliceFruit(){
             fruit.remove();
             splitFruit(fx,fy,fruit.type);
             score++;
+            console.log("score",score);
             break;
         }
     }
