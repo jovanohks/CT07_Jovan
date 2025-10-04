@@ -22,6 +22,7 @@ function setup(){
 function draw(){
     clear();
     image(dojoBG,0,0,width,height);
+    if (key.pressied)
     if (gamestate  === "start"){
         fill(0,100);
         rect(0,0,width,height);
