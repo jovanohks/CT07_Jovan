@@ -56,7 +56,7 @@ function draw(){
         fill(0,100);
         rect(0,0,width,height);
         fill(255);
-
+        bgtrack.stop();
         textAlign(CENTER,CENTER);
         textSize(40);
         text('Game over',width /2 ,height /2 -40);
