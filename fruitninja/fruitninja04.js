@@ -54,6 +54,7 @@ function draw(){
     text("Time: "+(gameDuration - gameTimer)+"s",400,10);
     if(gameTimer >= gameDuration){
         gamestate = "gameover";
+        gameDuration = 60;
         return
     }
     if (gamestate === "gameover"){
