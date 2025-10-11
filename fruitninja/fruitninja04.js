@@ -125,7 +125,7 @@ function sliceFruit(){
 }
 function splitFruit(x,y,fruitData){
     //left half
-    sliceSound.speed(5);
+    sliceSound.pause();
     sliceSound.play();
     let left = new fruitHalves.Sprite(x-10,y,40,40);
     left.img = fruitData.half1;
