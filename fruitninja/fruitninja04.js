@@ -16,7 +16,7 @@ function preload(){
     let banana ={whole: loadImage('assets/bananawhole-removebg-preview (1).png'),half1: loadImage('assets/bhalf2-removebg-preview (1).png')}
     //fruitTypes = [peach,watermelon,banana];
     let sliceSound = createAudio('assets/fruit-ninja-combo.mp3');
-    let bgtrack = createAudio('assets/fruit-ninja-bgtrack')
+    let bgtrack = createAudio('assets/fruit-ninja-bgtrack.mp3')
     fruitTypes = [peach,watermelon];
 }
 function setup(){
