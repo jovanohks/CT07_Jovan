@@ -93,7 +93,7 @@ function draw(){
     textAlign(LEFT,TOP);
     text("score "+score,10,10);
     text("Missed Fruits: "+missedFruits,200,10);
-    bgtrack.play()
+    bgtrack.play();
 }
 function sliceFruit(){
     if (mouse.pressing()){
@@ -119,6 +119,7 @@ function sliceFruit(){
 }
 function splitFruit(x,y,fruitData){
     //left half
+    sliceSound.play();
     let left = new fruitHalves.Sprite(x-10,y,40,40);
     left.img = fruitData.half1;
     left.vel.x = -3;
