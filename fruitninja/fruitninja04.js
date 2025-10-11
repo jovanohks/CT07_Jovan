@@ -7,7 +7,7 @@ let missedFruits = 0;
 let gamestate = 'start';
 let gameStartTime = 0;
 let gameTimer = 0; //elasped time
-let gameDuration = 5; //how long game is
+let gameDuration = 60; //how long game is
 let sliceSound,bgtrack;
 function preload(){
     dojoBG = loadImage("assets/dojobackground.png");
@@ -125,7 +125,7 @@ function sliceFruit(){
 }
 function splitFruit(x,y,fruitData){
     //left half
-    sliceSound.speed(2);
+    sliceSound.speed(5);
     sliceSound.play();
     let left = new fruitHalves.Sprite(x-10,y,40,40);
     left.img = fruitData.half1;
