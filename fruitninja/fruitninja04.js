@@ -8,7 +8,7 @@ let gamestate = 'start';
 let gameStartTime = 0;
 let gameTimer = 0; //elasped time
 let gameDuration = 10; //how long game is
-
+let sliceSound,bgtrack;
 function preload(){
     dojoBG = loadImage("assets/dojobackground.png");
     let peach = {whole: loadImage('assets/peachwhole.png'),half1: loadImage('assets/peachhalf.png')};
