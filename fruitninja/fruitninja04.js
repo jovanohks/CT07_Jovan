@@ -26,6 +26,7 @@ function setup(){
     fruitHalves = new Group();
 }
 function draw(){
+    bgtrack.play();
     
     clear();
     image(dojoBG,0,0,width,height);
