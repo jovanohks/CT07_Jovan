@@ -50,13 +50,7 @@ function draw(){
         text("Press SPACE or CLICK to start",width /2 ,height /2 +20);
         return;
     }
-    gameTimer = floor((millis() - gameStartTime) /1000);
-    text("Time: "+(gameDuration - gameTimer)+"s",400,10);
-    if(gameTimer >= gameDuration){
-        gamestate = "gameover";
-        gameDuration = 60;
-        return
-    }
+    
     if (gamestate === "gameover"){
         fill(0,100);
         rect(0,0,width,height);
@@ -70,6 +64,14 @@ function draw(){
         text("Press SPACE to restart",width /2 ,height /2 +60);
         return;
     }
+    gameTimer = floor((millis() - gameStartTime) /1000);
+    
+    if(gameTimer >= gameDuration){
+        gamestate = "gameover";
+        gameDuration = 60;
+        return
+    }
+    text("Time: "+(gameDuration - gameTimer)+"s",400,10);
     if (frameCount % 60 == 0){
         spawnFruit();
     }
