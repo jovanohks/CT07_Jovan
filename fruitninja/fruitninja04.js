@@ -93,7 +93,7 @@ function draw(){
     textAlign(LEFT,TOP);
     text("score "+score,10,10);
     text("Missed Fruits: "+missedFruits,200,10);
-
+    bgtrack.play()
 }
 function sliceFruit(){
     if (mouse.pressing()){
