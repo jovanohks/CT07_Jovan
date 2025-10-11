@@ -26,7 +26,7 @@ function setup(){
     fruitHalves = new Group();
 }
 function draw(){
-    bgtrack.play();
+    
     clear();
     image(dojoBG,0,0,width,height);
     if (kb.presses(" ") || mouse.pressing() && (gamestate === "start" || gamestate === "end")){
@@ -37,6 +37,7 @@ function draw(){
         fruitHalves.removeAll();
         gameStartTime = millis();
         gameTimer = 0;
+        bgtrack.play();
     }
     
     if (gamestate  === "start"){
