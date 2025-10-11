@@ -8756,7 +8756,7 @@ p5.prototype.registerMethod('init', function p5playInit() {
 			}
 			logo.src = src;
 		} else {
-			logo.src = 'assets/watermelonwhole.png';
+			logo.src = 'assets/peachsplash.png';
 		}
 		await new Promise((r) => (logo.onload = r));
 		d.append(logo);
