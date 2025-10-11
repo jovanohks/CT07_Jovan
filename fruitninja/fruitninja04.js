@@ -15,7 +15,8 @@ function preload(){
     let watermelon = {whole:loadImage("assets/watermelonwhole.png") ,half1: loadImage('assets/watermelonhalf.png')};
     let banana ={whole: loadImage('assets/bananawhole-removebg-preview (1).png'),half1: loadImage('assets/bhalf2-removebg-preview (1).png')}
     //fruitTypes = [peach,watermelon,banana];
-    let sliceSound = load
+    let sliceSound = createAudio('assets/fruit-ninja-combo.mp3');
+    
     fruitTypes = [peach,watermelon];
 }
 function setup(){
