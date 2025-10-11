@@ -1,4 +1,3 @@
-
 let dojoBG;
 let fruitGroup;
 let fruitTypes =[];
