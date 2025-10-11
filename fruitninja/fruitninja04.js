@@ -107,6 +107,7 @@ function sliceFruit(){
         let d = dist(mouse.x,mouse.y,fruit.x,fruit.y);
         if (d < (fruit.d /2)){
                 fruit.sliced = true;
+                
                 const fx = fruit.x;
                 const fy = fruit.y;
                 fruit.remove();
@@ -120,7 +121,7 @@ function sliceFruit(){
 }
 function splitFruit(x,y,fruitData){
     //left half
-    sliceSound.play();
+    
     let left = new fruitHalves.Sprite(x-10,y,40,40);
     left.img = fruitData.half1;
     left.vel.x = -3;
