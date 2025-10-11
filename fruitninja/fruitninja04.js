@@ -58,6 +58,7 @@ function draw(){
         fill(255);
         gameDuration = 0;
         gameTimer = 0;
+        gameStartTime = 0;
         textAlign(CENTER,CENTER);
         textSize(40);
         text('Game over',width /2 ,height /2 -40);
