@@ -7,7 +7,7 @@ let missedFruits = 0;
 let gamestate = 'start';
 let gameStartTime = 0;
 let gameTimer = 0; //elasped time
-let gameDuration = 60; //how long game is
+let gameDuration = 5; //how long game is
 let sliceSound,bgtrack;
 function preload(){
     dojoBG = loadImage("assets/dojobackground.png");
