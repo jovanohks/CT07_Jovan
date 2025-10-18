@@ -17,7 +17,7 @@ function draw(){
     textSize(20);
     textAlign(CENTER.CENTER);
     text(userText,width/2,height /2);
-    text(AgeText,width/2 ,height /2 -40);
+    text(userAge,width/2 ,height /2 -40);
 }
 function updateText(){
     userText = this.value();
