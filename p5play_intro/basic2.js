@@ -7,7 +7,7 @@ function setup(){
     inputText.input(updateText);
     inputAge = createInput();
     inputAge.position(200,height - 130);
-    
+    inputAge.input()
 }
 function draw(){
     background(220);
