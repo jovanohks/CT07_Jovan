@@ -80,7 +80,7 @@ function draw(){
     }
     if (gametimer - lastDifficultyIncrease >=15){
         difficultyNumFruits +=1;
-        
+        lastDifficultyIncrease = gameTimer;
     }
     if (mouse.pressing()){
         trail = new Sprite(mouse.x,mouse.y,7);
