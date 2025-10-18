@@ -18,7 +18,7 @@ function draw(){
     textSize(16);
     textAlign(left);
     fill(0);
-    text("pick a colour: ",20,50)
+    text("pick a colour: ",20,50);
     fill(0);
     textSize(20);
     textAlign(CENTER.CENTER);
