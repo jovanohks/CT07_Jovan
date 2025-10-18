@@ -1,0 +1,2 @@
+let inputText;
+let UserText
