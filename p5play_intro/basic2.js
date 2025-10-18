@@ -11,10 +11,11 @@ function setup(){
     inputAge.position(200,height - 130);
     colorPicker = createColourPicker("#5ed688ff");
     colorPicker.position(200,32);
-    
+
 }
 function draw(){
-    background(220);
+    background(colorPicker.value());
+    
     fill(0);
     textSize(20);
     textAlign(CENTER.CENTER);
