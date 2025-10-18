@@ -76,7 +76,7 @@ function draw(){
     }
     text("Time: "+(gameDuration - gameTimer)+"s",400,10);
     if (frameCount % 60 == 0){
-        for (let i =1; i <=difficultyNumFruits){
+        for (let i =1; i <=difficultyNumFruits; i++){
             spawnFruit();
         }
     }
