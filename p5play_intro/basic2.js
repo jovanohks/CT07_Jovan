@@ -25,6 +25,7 @@ function draw(){
     text(userText,width/2,height /2);
     text(userAge,width/2 ,height /2 -40);
     rect(50,100);
+    
 }
 function updateText(){
     userText = this.value();
