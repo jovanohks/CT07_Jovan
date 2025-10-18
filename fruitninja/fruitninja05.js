@@ -9,6 +9,7 @@ let gameStartTime = 0;
 let gameTimer = 0; //elasped time
 let gameDuration = 60; //how long game is
 let sliceSound,bgtrack;
+let difficultyNumFruits,
 function preload(){
     dojoBG = loadImage("assets/dojobackground.png");
     let peach = {whole: loadImage('assets/peachwhole.png'),half1: loadImage('assets/peachhalf.png')};
