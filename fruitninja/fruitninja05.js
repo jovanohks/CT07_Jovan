@@ -39,6 +39,7 @@ function draw(){
         fruitHalves.removeAll();
         gameStartTime = millis();
         gameTimer = 0;
+        difficultyNumFruits = 1;
     }
     
     if (gamestate  === "start"){
