@@ -76,8 +76,9 @@ function draw(){
     }
     text("Time: "+(gameDuration - gameTimer)+"s",400,10);
     if (frameCount % 60 == 0){
-        
-        spawnFruit();
+        for (i in difficultyNumFruits){
+            spawnFruit();
+        }
     }
     if (gameTimer - lastDifficultyIncrease >=15){
         difficultyNumFruits +=1;
