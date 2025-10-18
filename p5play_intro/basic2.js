@@ -7,3 +7,6 @@ function setup(){
     inputText.input(updateText);
 
 }
+function draw(){
+    
+}
