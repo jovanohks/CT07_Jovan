@@ -79,6 +79,7 @@ function draw(){
         spawnFruit();
     }
     if (gametimer - lastDifficultyIncrease >=15){
+        difficultyNumFruits +=1;
         
     }
     if (mouse.pressing()){
