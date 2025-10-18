@@ -9,7 +9,7 @@ function setup(){
     inputText.input(updateText);
     inputAge = createInput();
     inputAge.position(200,height - 130);
-    colorPicker = createColourPicker
+    colorPicker = createColourPicker("#5ed688ff")
 }
 function draw(){
     background(220);
