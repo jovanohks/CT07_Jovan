@@ -1,2 +1,5 @@
 let inputText;
-let UserText
+let UserText = "your text here";
+function setup(){
+    
+}
