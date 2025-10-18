@@ -10,7 +10,8 @@ function setup(){
     inputAge = createInput();
     inputAge.position(200,height - 130);
     colorPicker = createColourPicker("#5ed688ff");
-    colorPicker.position = 
+    colorPicker.position(200,32);
+    
 }
 function draw(){
     background(220);
