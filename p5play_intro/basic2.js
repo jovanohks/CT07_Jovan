@@ -11,5 +11,6 @@ function draw(){
     background(220);
     fill(0);
     textSize(20);
+    textAlign(CENTER.CENTER);
     
 }
