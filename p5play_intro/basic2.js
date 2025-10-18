@@ -1,7 +1,7 @@
 let inputText;
 let userText = "your text here";
 let inputAge;
-let userAge;
+let userAge = "your age here";
 function setup(){
     createCanvas(600,400);
     inputText = createInput();
