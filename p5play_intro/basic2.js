@@ -1,5 +1,6 @@
 let inputText;
 let userText = "your text here";
+
 function setup(){
     createCanvas(600,400);
     inputText = createInput();
@@ -7,7 +8,7 @@ function setup(){
     inputText.input(updateText);
     inputAge = createInput();
     inputAge.position(200,height - 130);
-    inputAge.input()
+    inputAge.input(updateAge);
 }
 function draw(){
     background(220);
