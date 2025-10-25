@@ -4,8 +4,8 @@ function setup(){
     nouninput.position(120,80);
     let verbinput = createInput("noun")
     verbinput.position(120,130);
-    let verbinput = createInput("noun")
-    verbinput.position(120,130);    
+    let adjinput = createInput("noun")
+    adjinput.position(120,130);    
 }
 function draw(){
 
