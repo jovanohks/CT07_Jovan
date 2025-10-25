@@ -4,12 +4,12 @@ function setup(){
     tbox = createInput();
     tbox.position(80,80);
     tbox.input(updateText);
-    colourPicker = createColorPicker("#ffffff");
-    colourPicker.position(80,120);
+    colorPicker = createColorPicker("#ffffff");
+    colorPicker.position(80,120);
 }
 function draw(){
     background(220);
-    fill(colourPicker.value())
+    fill(colorPicker.value())
     text(tboxText,50,50);
 }
 function updateText(){
