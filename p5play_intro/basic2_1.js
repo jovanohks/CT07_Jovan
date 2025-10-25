@@ -3,9 +3,9 @@ function setup(){
     createCanvas(600,400);
     nouninput = createInput("noun")
     nouninput.position(120,80);
-    let verbinput = createInput("noun")
+    let verbinput = createInput("verb")
     verbinput.position(120,130);
-    let adjinput = createInput("noun")
+    let adjinput = createInput("adjetive")
     adjinput.position(120,180);
     let adverb = createInput("adverb")    
     adverb.position(120,230);
