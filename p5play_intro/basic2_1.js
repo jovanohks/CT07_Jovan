@@ -17,4 +17,5 @@ function setup(){
 }
 function updatenoun(){
     console.log(nouninput.value());
+    
 }
