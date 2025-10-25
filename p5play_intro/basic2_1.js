@@ -23,5 +23,6 @@ function setup(){
     createCanvas(200,400);
     background(220);
     inputsfield = createInput("enter your text here");
+    inputsfield.positions(55,20);
     
 }
