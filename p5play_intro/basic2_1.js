@@ -4,10 +4,10 @@ function setup(){
     tbox = createInput();
     tbox.position(80,80);
     tbox.input(updateText);
-
+    colourPicker = create
 }
 function draw(){
-    
+
 }
 function updateText(){
     tboxText = this.value();
