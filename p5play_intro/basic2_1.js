@@ -9,5 +9,5 @@ function draw(){
 
 }
 function updateText(){
-
+    tboxText = this.text;
 }
