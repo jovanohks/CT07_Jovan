@@ -19,4 +19,5 @@ function updatenoun(){
     console.log(nouninput.value());
     console.log(verbinput.value());
     console.log(adjinput.value());
+    console.log(adverb.value())
 }
