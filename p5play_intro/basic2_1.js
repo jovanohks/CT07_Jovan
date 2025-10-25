@@ -1,7 +1,8 @@
 function setup(){
     createCanvas(600,400);
     let nouninput = createInput("noun")
-    nouninput.position(120,80)
+    nouninput.position(120,80);
+    nouninput
 }
 function draw(){
 
