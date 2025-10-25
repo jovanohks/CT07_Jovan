@@ -1,4 +1,4 @@
-let tboxText = "input something here";
+/*let tboxText = "input something here";
 function setup(){
 
     createCanvas(600,400);
