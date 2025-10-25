@@ -1,3 +1,4 @@
+
 function setup(){
     new Canvas(200,200)
     tbox = createInput();
@@ -9,5 +10,5 @@ function draw(){
 
 }
 function updateText(){
-    tboxText = this.text;
+    tboxText = this.value();
 }
