@@ -3,7 +3,8 @@ function setup(){
     let nouninput = createInput("noun")
     nouninput.position(120,80);
     let verbinput = createInput("noun")
-    verbinput.position(120,80);
+    verbinput.position(120,130);
+    
 }
 function draw(){
 
