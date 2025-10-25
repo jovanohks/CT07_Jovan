@@ -8,7 +8,7 @@ function setup(){
     colourPicker.position(80,120);
 }
 function draw(){
-    text(tboxText)
+    text(tboxText,50,50);
 }
 function updateText(){
     tboxText = this.value();
