@@ -7,6 +7,7 @@ function setup(){
     let adjinput = createInput("noun")
     adjinput.position(120,180);
     let adverb = createInput("adverb")    
+    adverb.position()
 }
 function draw(){
 
