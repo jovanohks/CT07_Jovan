@@ -16,5 +16,5 @@ function setup(){
     genstory.mouseClicked(updatenoun)
 }
 function updatenoun(){
-    console.log(verbinput.value());
+    console.log(nouninput.value());
 }
