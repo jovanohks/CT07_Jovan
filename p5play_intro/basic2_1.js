@@ -1,4 +1,4 @@
-let tboxText = ""
+let tboxText = "input something here";
 function setup(){
     new Canvas(200,200)
     tbox = createInput();
@@ -7,7 +7,7 @@ function setup(){
 
 }
 function draw(){
-
+    
 }
 function updateText(){
     tboxText = this.value();
