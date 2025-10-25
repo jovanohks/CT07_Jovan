@@ -18,4 +18,5 @@ function setup(){
 function updatenoun(){
     console.log(nouninput.value());
     console.log(verbinput.value());
+    console.log()
 }
