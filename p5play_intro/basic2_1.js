@@ -7,3 +7,6 @@ function setup(){
 function draw(){
 
 }
+function updatenoun(){
+    
+}
