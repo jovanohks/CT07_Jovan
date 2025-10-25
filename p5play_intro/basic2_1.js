@@ -20,5 +20,6 @@ let inputsfield;
 let submitButton;
 let outputText;
 function setup(){
-    
+    createCanvas(200,400);
+    background(220);
 }
