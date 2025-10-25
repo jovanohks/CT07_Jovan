@@ -1,15 +1,15 @@
-let nouninput;
+let nouninput,verbinput,adjinput,adverb,place;
 function setup(){
     createCanvas(600,400);
     nouninput = createInput("noun")
     nouninput.position(120,80);
-    let verbinput = createInput("verb")
+    verbinput = createInput("verb")
     verbinput.position(120,130);
-    let adjinput = createInput("adjetive")
+    adjinput = createInput("adjetive")
     adjinput.position(120,180);
     let adverb = createInput("adverb")    
     adverb.position(120,230);
-    let place = createInput("adverb")    
+    let place = createInput("place")    
     place.position(120,280);
     let genstory = createButton("gen story")
     genstory.position(120,330)
