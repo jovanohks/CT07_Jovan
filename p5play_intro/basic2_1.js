@@ -1,6 +1,6 @@
 let tboxText = "input something here";
 function setup(){
-    Canvas(200,200)
+    
     createCanvas(600,400);
     tbox = createInput();
     tbox.position(80,80);
