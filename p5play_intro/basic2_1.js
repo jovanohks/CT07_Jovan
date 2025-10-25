@@ -8,6 +8,8 @@ function setup(){
     adjinput.position(120,180);
     let adverb = createInput("adverb")    
     adverb.position(120,230);
+    let place = createInput("adverb")    
+    place.position(120,230);
     
 }
 function draw(){
