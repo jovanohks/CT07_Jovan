@@ -17,3 +17,5 @@ function updateText(){
     tboxText = this.value();
 }*/
 let inputsfield;
+let submitButton;
+let outputText;
