@@ -1,6 +1,6 @@
 function setup(){
     new Canvas(200,200)
-    tbox = 
+    tbox = createInput();
 }
 function draw(){
 
