@@ -11,6 +11,7 @@ function setup(){
     let place = createInput("adverb")    
     place.position(120,280);
     let genstory = createButton("gen story")
+    genstory.position(120,330)
 }
 function updatenoun(){
     console.log(this.value());
