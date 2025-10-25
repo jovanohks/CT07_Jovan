@@ -12,6 +12,7 @@ function setup(){
     place.position(120,280);
     let genstory = createButton("gen story")
     genstory.position(120,330)
+    genstory.mouseClicked(update)
 }
 function updatenoun(){
     console.log(this.value());
