@@ -19,3 +19,6 @@ function updateText(){
 let inputsfield;
 let submitButton;
 let outputText;
+function setup(){
+    
+}
