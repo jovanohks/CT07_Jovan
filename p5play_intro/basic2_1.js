@@ -15,4 +15,5 @@ function draw(){
 }
 function updateText(){
     tboxText = this.value();
-}
+}*/
+let inputfield = 
