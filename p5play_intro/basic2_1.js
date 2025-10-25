@@ -1,4 +1,4 @@
-
+let nouninput;
 function setup(){
     createCanvas(600,400);
     nouninput = createInput("noun")
