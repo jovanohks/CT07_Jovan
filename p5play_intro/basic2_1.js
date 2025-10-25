@@ -10,7 +10,7 @@ function setup(){
     adverb.position(120,230);
     let place = createInput("adverb")    
     place.position(120,280);
-    
+    let genstory = createButton
 }
 function draw(){
 
