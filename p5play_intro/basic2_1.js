@@ -4,7 +4,7 @@ function setup(){
     tbox = createInput();
     tbox.position(80,80);
     tbox.input(updateText);
-    colourPicker = createColourPicker();
+    colourPicker = createColourPicker("");
 }
 function draw(){
 
