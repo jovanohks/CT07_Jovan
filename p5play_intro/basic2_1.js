@@ -1,6 +1,6 @@
 function setup(){
     createCanvas(600,400);
-    let 
+    let nouninput = createInput()
 }
 function draw(){
 
