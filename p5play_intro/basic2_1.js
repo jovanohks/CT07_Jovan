@@ -26,5 +26,7 @@ function setup(){
     inputsfield.positions(55,20);
     SubmitButton = createButton("Show Text");
     submitButton.position(inputsfield.x+inputsfield.width+40,inputsfield.y);
-     
+
 }
+
+fun
