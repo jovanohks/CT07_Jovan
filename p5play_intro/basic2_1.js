@@ -9,7 +9,7 @@ function setup(){
     let adverb = createInput("adverb")    
     adverb.position(120,230);
     let place = createInput("adverb")    
-    place.position(120,230);
+    place.position(120,280);
     
 }
 function draw(){
