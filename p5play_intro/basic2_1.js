@@ -18,11 +18,11 @@ function setup(){
     genstory.mouseClicked(updatenoun)
 }
 function draw(){
-    text('Enter a noun',10,80);
-    text('Enter a verb',10,130);
-    text('Enter a adjetive',10,180);
-    text('Enter a adverb',10,230);
-    text('Enter a place',10,280);
+    text('Enter a noun',50,80);
+    text('Enter a verb',50,130);
+    text('Enter a adjetive',50,180);
+    text('Enter a adverb',50,230);
+    text('Enter a place',50,280);
 }
 function updatenoun(){
     console.log(nouninput.value());
