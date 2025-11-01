@@ -19,10 +19,10 @@ function setup(){
 }
 function draw(){
     text('Enter a noun',50,80);
-    text('Enter a verb',50,80);
+    text('Enter a verb',50,130);
     text('Enter a adjetive',50,80);
     text('Enter a adverb',50,80);
-    text('Enter a noun',50,80);
+    text('Enter a place',50,80);
 }
 function updatenoun(){
     console.log(nouninput.value());
