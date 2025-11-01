@@ -25,8 +25,8 @@ function updatenoun(){
     textSize(20);
     textAlign(CENTER,CENTER);
     text(nouninput.value(),300,120);
-    text(verbinput.value(),320,120);
-    text(adjinput.value(),340,120);
-    text(place.value(),360,120);
-    text(adverb.value(),380,120)
+    text(verbinput.value(),320,140);
+    text(adjinput.value(),340,160);
+    text(place.value(),360,180);
+    text(adverb.value(),380,10)
 }
