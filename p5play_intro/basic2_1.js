@@ -23,7 +23,7 @@ function setup(){
         "one day, A {adjetive} {noun} wanted to {verb} {adv} at {place}"     
     };
     templates = random(storytemplates);
-    storytext = templates.replace('{noun}',"dog")
+    /*storytext = templates.replace('{noun}',"dog")
                          .replace("{adjetive}","happy")
                          .replace("{verb}","jump")
                          .replace("{adv}","quickly")
