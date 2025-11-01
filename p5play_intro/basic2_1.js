@@ -12,7 +12,7 @@ function setup(){
     adverb.position(120,230);
     place = createInput("place")    
     place.position(120,280);
-    let genstory = createButton("gen story")
+    genstory = createButton("gen story")
     genstory.position(120,330)
     genstory.mouseClicked(updatenoun)
 }
