@@ -22,7 +22,7 @@ function setup(){
         "A  {adjetive} {noun} decided to {verb} {adv}  at {place}":
         "one day, A {adjetive} {noun} wanted to {verb} {adv} at {place}"     
     };
-    templates = random(storytemplates);
+    template = random(storytemplates);
     /*storytext = templates.replace('{noun}',"dog")
                          .replace("{adjetive}","happy")
                          .replace("{verb}","jump")
@@ -43,7 +43,7 @@ function updatenoun(){
     console.log(adverb.value());
     console.log(place.value());
     console.log(storytext);
-    storytext = templates.replace("{noun}",nouninput.value()).replace("{verb}",verbinput.value()).replace("{adjetive}",adjinput.value()).replace("{adv}",adverb.value()).replace("{place}",place.value())                    
+    storytext = template.replace("{noun}",nouninput.value()).replace("{verb}",verbinput.value()).replace("{adjetive}",adjinput.value()).replace("{adv}",adverb.value()).replace("{place}",place.value())                    
     background("220");
     textSize(12);
     textAlign(CENTER,CENTER);
