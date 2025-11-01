@@ -23,7 +23,7 @@ function updatenoun(){
     console.log(place.value());
     background("white");
     textSize(20);
-    textalign(CENTER,CENTER);
+    textAlign(CENTER,CENTER);
     text(nouninput.value(),300,120);
     text(verbinput.value(),320,120);
     text(adjinput.value(),340,120);
