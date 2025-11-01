@@ -23,5 +23,6 @@ function updatenoun(){
     console.log(place.value());
     background(20);
     textSize(20);
+    textalign(CENTER,CENTER);
     
 }
