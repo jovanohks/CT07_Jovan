@@ -33,7 +33,7 @@ function draw(){
     text(place.value(),120,440)
 }
 function updatenoun(){
-        console.log(nouninput.value());
+    console.log(nouninput.value());
     console.log(verbinput.value());
     console.log(adjinput.value());
     console.log(adverb.value());
