@@ -1,7 +1,7 @@
 let nouninput,verbinput,adjinput,adverb,place;
 let genstory;
-let storytemplates;
-
+let storytemplates , storytext;
+let templates;
 function setup(){
     createCanvas(600,600);
     nouninput = createInput("noun")
@@ -17,7 +17,17 @@ function setup(){
     place.position(200,280);
     genstory = createButton("gen story")
     genstory.position(200,330)
-    genstory.mouseClicked(updatenoun)
+    genstory.mouseClicked(updatenoun);
+    storytemplates = {
+        "A  {adjetive} {noun} decided to {verb} {adv}  at {place}":
+        "one day, A {adjetive} {noun} wanted to {verb} {adv} at {place}"     
+    };
+    templates = random(storytemplates);
+    storytext = templates.replace('{noun}',"dog")
+                         .replace("{adjetive}","happy")
+                         .replace("{verb}","jump")
+                         .replace("{adv}","quickly")
+                         .replace("{place}","ang mo kio");
 }
 function draw(){
     text('Enter a noun',50,80);
@@ -35,9 +45,10 @@ function updatenoun(){
     background("220");
     textSize(12);
     textAlign(CENTER,CENTER);
-    text(nouninput.value(),120,360);
-    text(verbinput.value(),120,380);
+    text(storytext,120,360);
+ /*   text(verbinput.value(),120,380);
     text(adjinput.value(),120,400);
     text(adverb.value(),120,420);
     text(place.value(),120,440)
+   */ 
 }
