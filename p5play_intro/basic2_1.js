@@ -45,7 +45,7 @@ function updatenoun(){
     background("220");
     textSize(12);
     textAlign(CENTER,CENTER);
-    text(storytext,120,360);
+    
  /*   text(verbinput.value(),120,380);
     text(adjinput.value(),120,400);
     text(adverb.value(),120,420);
