@@ -19,6 +19,10 @@ function setup(){
 }
 function draw(){
     text('Enter a noun',50,80);
+    text('Enter a verb',50,80);
+    text('Enter a noun',50,80);
+    text('Enter a noun',50,80);
+    text('Enter a noun',50,80);
 }
 function updatenoun(){
     console.log(nouninput.value());
