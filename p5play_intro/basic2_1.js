@@ -18,19 +18,7 @@ function setup(){
     genstory.mouseClicked(updatenoun)
 }
 function draw(){
-    console.log(nouninput.value());
-    console.log(verbinput.value());
-    console.log(adjinput.value());
-    console.log(adverb.value());
-    console.log(place.value());
-    background("white");
-    textSize(20);
-    textAlign(CENTER,CENTER);
-    text(nouninput.value(),120,360);
-    text(verbinput.value(),120,380);
-    text(adjinput.value(),120,400);
-    text(adverb.value(),120,420);
-    text(place.value(),120,440)
+    text()
 }
 function updatenoun(){
     console.log(nouninput.value());
