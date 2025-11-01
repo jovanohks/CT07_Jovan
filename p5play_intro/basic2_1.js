@@ -28,5 +28,5 @@ function updatenoun(){
     text(verbinput.value(),320,140);
     text(adjinput.value(),340,160);
     text(place.value(),360,180);
-    text(adverb.value(),380,10)
+    text(adverb.value(),380,200)
 }
