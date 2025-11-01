@@ -32,4 +32,6 @@ function draw(){
     text(adverb.value(),120,420);
     text(place.value(),120,440)
 }
-function updatenoun(){}
+function updatenoun(){
+    
+}
