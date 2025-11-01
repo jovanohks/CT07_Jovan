@@ -18,7 +18,7 @@ function setup(){
     genstory.mouseClicked(updatenoun)
 }
 function draw(){
-    text('Enter a noun',)
+    text('Enter a noun',50,80);
 }
 function updatenoun(){
     console.log(nouninput.value());
