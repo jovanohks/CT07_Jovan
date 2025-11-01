@@ -1,6 +1,7 @@
 let nouninput,verbinput,adjinput,adverb,place;
 let genstory;
-let storytemplates
+let storytemplates;
+
 function setup(){
     createCanvas(600,600);
     nouninput = createInput("noun")
