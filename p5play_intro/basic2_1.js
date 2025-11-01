@@ -15,7 +15,7 @@ function setup(){
     place.position(120,280);
     genstory = createButton("gen story")
     genstory.position(120,330)
-    genstory.mouseClicked()
+    genstory.mouseClicked(updatenoun)
 }
 function draw(){
     console.log(nouninput.value());
@@ -33,5 +33,17 @@ function draw(){
     text(place.value(),120,440)
 }
 function updatenoun(){
-    
+        console.log(nouninput.value());
+    console.log(verbinput.value());
+    console.log(adjinput.value());
+    console.log(adverb.value());
+    console.log(place.value());
+    background("white");
+    textSize(20);
+    textAlign(CENTER,CENTER);
+    text(nouninput.value(),120,360);
+    text(verbinput.value(),120,380);
+    text(adjinput.value(),120,400);
+    text(adverb.value(),120,420);
+    text(place.value(),120,440)
 }
