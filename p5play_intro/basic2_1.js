@@ -21,4 +21,7 @@ function updatenoun(){
     console.log(adjinput.value());
     console.log(adverb.value());
     console.log(place.value());
+    background(20);
+    textSize(20);
+    
 }
