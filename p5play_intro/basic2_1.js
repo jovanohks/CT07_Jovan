@@ -4,13 +4,13 @@ function setup(){
     createCanvas(600,600);
     nouninput = createInput("noun")
     textSize(12)
-    nouninput.position(120,80);
+    nouninput.position(200,80);
     verbinput = createInput("verb")
-    verbinput.position(120,130);
+    verbinput.position(200,130);
     adjinput = createInput("adjetive")
-    adjinput.position(120,180);
+    adjinput.position(200,180);
     adverb = createInput("adverb")    
-    adverb.position(120,230);
+    adverb.position(200,230);
     place = createInput("place")    
     place.position(120,280);
     genstory = createButton("gen story")
