@@ -28,7 +28,7 @@ function setup(){
                          .replace("{verb}","jump")
                          .replace("{adv}","quickly")
                          .replace("{place}","ang mo kio");
-}
+*/}
 function draw(){
     text('Enter a noun',50,80);
     text('Enter a verb',50,130);
@@ -43,6 +43,7 @@ function updatenoun(){
     console.log(adverb.value());
     console.log(place.value());
     console.log(storytext);
+    
     background("220");
     textSize(12);
     textAlign(CENTER,CENTER);
