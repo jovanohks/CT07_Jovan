@@ -42,6 +42,7 @@ function updatenoun(){
     console.log(adjinput.value());
     console.log(adverb.value());
     console.log(place.value());
+    console.log(storytext);
     background("220");
     textSize(12);
     textAlign(CENTER,CENTER);
