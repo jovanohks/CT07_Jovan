@@ -1,5 +1,6 @@
 let nouninput,verbinput,adjinput,adverb,place;
 let genstory;
+let storytemplates
 function setup(){
     createCanvas(600,600);
     nouninput = createInput("noun")
@@ -30,7 +31,7 @@ function updatenoun(){
     console.log(adjinput.value());
     console.log(adverb.value());
     console.log(place.value());
-    background("white");
+    background("220");
     textSize(12);
     textAlign(CENTER,CENTER);
     text(nouninput.value(),120,360);
