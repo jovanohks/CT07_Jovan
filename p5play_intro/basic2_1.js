@@ -43,7 +43,7 @@ function updatenoun(){
     console.log(adverb.value());
     console.log(place.value());
     console.log(storytext);
-    storytext = templates.replace("{noun}",nouninput.value()).replace("{verb}",verbinput.value()).replace("{adjetive}",adjinput.value()).replace("{noun}",adverb.value()).replace("{noun}",place.value())                    
+    storytext = templates.replace("{noun}",nouninput.value()).replace("{verb}",verbinput.value()).replace("{adjetive}",adjinput.value()).replace("{adv}",adverb.value()).replace("{noun}",place.value())                    
     background("220");
     textSize(12);
     textAlign(CENTER,CENTER);
