@@ -17,7 +17,7 @@ function setup(){
     genstory.position(120,330)
     genstory.mouseClicked(updatenoun)
 }
-function updatenoun(){
+function draw(){
     console.log(nouninput.value());
     console.log(verbinput.value());
     console.log(adjinput.value());
