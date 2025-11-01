@@ -24,5 +24,5 @@ function updatenoun(){
     background(20);
     textSize(20);
     textalign(CENTER,CENTER);
-    text(nouninput.value(),)
+    text(nouninput.value(),300,120);
 }
