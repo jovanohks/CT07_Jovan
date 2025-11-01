@@ -2,6 +2,7 @@ let nouninput,verbinput,adjinput,adverb,place;
 function setup(){
     createCanvas(600,600);
     nouninput = createInput("noun")
+    textsize(12)
     nouninput.position(120,80);
     verbinput = createInput("verb")
     verbinput.position(120,130);
