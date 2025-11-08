@@ -104,7 +104,7 @@ function checkGuess(){
     }else if (guess.length >6){
         message = "too many letters"
     }else{
-        let corectLetter 
+        let corectLetter = getCorrectLetters
     }
 }
 function getCorrectLetters(guess,word){
