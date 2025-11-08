@@ -88,7 +88,7 @@ function draw(){
     textAlign(CENTER,CENTER);
     text("guess the hidden word",150,20)
     text("Attempts: " +attempt,150,55 )
-    text("Hint: "+displayHint,150,85);
+    text("Hint: "+ displayHint,150,85);
     //submitButton.mousePresed(checkGuess);
     //text(inputbox.value(),150,50);
 
