@@ -92,7 +92,7 @@ function draw(){
     //submitButton.mousePresed(checkGuess);
     //text(inputbox.value(),150,50);
     if (attempts <10){
-        text("Game Over! ")
+        text("Game Over! Correct word was "+ selectedWord,200,)
     }
 }
 function checkGuess(){
