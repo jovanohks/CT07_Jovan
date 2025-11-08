@@ -98,6 +98,9 @@ function checkGuess(){
     let guess = inputbox.value().toLowerCase();
     attempts++
     console.log(getCorrectLetters(guess,selectedWord));
+    if (guess = hiddenword){
+        message = 
+    }
 }
 function getCorrectLetters(guess,word){
     let correctletter ="";
