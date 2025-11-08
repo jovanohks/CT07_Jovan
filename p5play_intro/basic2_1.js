@@ -100,8 +100,8 @@ function checkGuess(){
     console.log(getCorrectLetters(guess,selectedWord));
     if (guess = hiddenword){
         message = "correct! the wprd was "+hiddenword.toUpperCase +"!"
-        
-    }
+
+    }else if (guess.length >6)
 }
 function getCorrectLetters(guess,word){
     let correctletter ="";
