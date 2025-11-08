@@ -99,7 +99,7 @@ function checkGuess(){
     attempts++
     console.log(getCorrectLetters(guess,selectedWord));
     if (guess = hiddenword){
-        message = 
+        message = "correct! the wprd was "+hiddenword.to
     }
 }
 function getCorrectLetters(guess,word){
