@@ -99,7 +99,8 @@ function checkGuess(){
     attempts++
     console.log(getCorrectLetters(guess,selectedWord));
     if (guess = hiddenword){
-        message = "correct! the wprd was "+hiddenword.to
+        message = "correct! the wprd was "+hiddenword.toUpperCase +"!"
+        
     }
 }
 function getCorrectLetters(guess,word){
