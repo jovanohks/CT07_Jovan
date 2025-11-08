@@ -75,7 +75,7 @@ function setup(){
     displayHint = selectedWord[0].toUpperCase()+" "+ "_".repeat(selectedWord.length - 1);
     words =["hello","cat","moon","plane"];
     selectedWord = random(words);
-    submitButton = createButton("guess');
+    submitButton = createButton("guess");
     submitButton.position(width /2 - 100, height /2 - 100);
     submitButton.size(150,30);
     submitButton.style("font-size",'10px');
