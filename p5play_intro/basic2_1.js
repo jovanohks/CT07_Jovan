@@ -1,4 +1,4 @@
-let nouninput,verbinput,adjinput,adverb,place;
+/*let nouninput,verbinput,adjinput,adverb,place;
 let genstory;
 let storytemplates,storytext;
 let template;
@@ -29,7 +29,7 @@ function setup(){
                          .replace("{adv}","quickly")
                          .replace("{place}","ang mo kio");
 */}
-function draw(){
+/*function draw(){
     text('Enter a noun',50,80);
     text('Enter a verb',50,130);
     text('Enter a adjetive',50,180);
@@ -53,4 +53,30 @@ function updatenoun(){
     text(adverb.value(),120,420);
     text(place.value(),120,440)
    */ 
+//}
+
+let inputbox;
+let submitButton;
+function setup(){
+    createCanvas(600,400);
+    textsize(24);
+    textAlign(CENTER,CENTER);
+    inputbox = createInput();
+    inputbox.size(150,30);
+    inputbox.style("font-size","20px");
+    inputbox.position(width /2 -80 , height /2 - 100);
+    attempt = 0;
+
+    words =["hello","cat","moon","plane"];
+    selectedWord = random(words);
+    submitButton = createButton('guess');
+    submitButton.position(width /2 - 100, height /2 - 100);
+    submitButton.size(150,30);
+    submitButton.style("font-size",10px);
+    submitButton.mousePresed(checkGuess);
+
+}
+function checkGuess(){
+    text(inputbox.value(),150,50);
+
 }
