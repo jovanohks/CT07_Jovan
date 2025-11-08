@@ -28,7 +28,7 @@ function setup(){
                          .replace("{verb}","jump")
                          .replace("{adv}","quickly")
                          .replace("{place}","ang mo kio");
-*/}
+*/
 /*function draw(){
     text('Enter a noun',50,80);
     text('Enter a verb',50,130);
@@ -57,6 +57,12 @@ function updatenoun(){
 
 let inputbox;
 let submitButton;
+let inputtext;
+let words;
+let selectedWord;
+let displayHint;
+let attempt;
+
 function setup(){
     createCanvas(600,400);
     textsize(24);
@@ -66,17 +72,37 @@ function setup(){
     inputbox.style("font-size","20px");
     inputbox.position(width /2 -80 , height /2 - 100);
     attempt = 0;
-
+    displayHint = selectedWord[0].toUpperCase()+" "+ "_".repeat(selectedWord.length - 1);
     words =["hello","cat","moon","plane"];
     selectedWord = random(words);
     submitButton = createButton('guess');
     submitButton.position(width /2 - 100, height /2 - 100);
     submitButton.size(150,30);
-    submitButton.style("font-size",10px);
+    submitButton.style("font-size",'10px');
     submitButton.mousePresed(checkGuess);
+
+}
+function draw(){
+    background(220);
+    textSize(24);
+    textAlign(CENTER,CENTER);
+    text("guess the hidden word",150,20)
+    text("Attempts: " +attempt,150,55 )
+    text(displayHint,150,85);
+    //submitButton.mousePresed(checkGuess);
+    //text(inputbox.value(),150,50);
 
 }
 function checkGuess(){
     text(inputbox.value(),150,50);
+}
+function getCorrectLetters(guess,word){
+    let correctletter ="";
+    for(let i = 0; i<word.length; i++){
+        if (word.include(guess[i])&& !getCorrectLetters.includes(guess[i].toUpperCase)){
+            correctletter +=guess[i].toUpperCase()+ " ";
 
+        }
+    }
+    return correctletter;
 }
