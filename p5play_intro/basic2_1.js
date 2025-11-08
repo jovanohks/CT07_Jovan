@@ -78,7 +78,7 @@ function setup(){
     submitButton = createButton("guess");
     submitButton.position(width /2 - 100, height /2 - 100);
     submitButton.size(150,30);
-    submitButton.style("font-size",'10px');
+    submitButton.style("font-size","10px");
     submitButton.mousePresed(checkGuess);
 
 }
