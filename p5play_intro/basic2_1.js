@@ -94,8 +94,9 @@ function draw(){
 
 }
 function checkGuess(){
-    text(inputbox.value(),150,50);
+    
     let guess = inputbox.value().toLowerCase();
+    
     console.log(getCorrectLetters(guess,selectedWord));
 }
 function getCorrectLetters(guess,word){
