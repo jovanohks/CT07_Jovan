@@ -102,7 +102,7 @@ function checkGuess(){
         message = "correct! the wprd was "+hiddenword.toUpperCase +"!"
 
     }else if (guess.length >6){
-        
+        message = "too many letters"
     }
 }
 function getCorrectLetters(guess,word){
