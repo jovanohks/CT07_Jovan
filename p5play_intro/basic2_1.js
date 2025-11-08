@@ -91,7 +91,9 @@ function draw(){
     text("Hint: "+ displayHint,150,85);
     //submitButton.mousePresed(checkGuess);
     //text(inputbox.value(),150,50);
-
+    if (attempts <10){
+        
+    }
 }
 function checkGuess(){
     
