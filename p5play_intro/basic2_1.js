@@ -61,8 +61,9 @@ let inputtext;
 let words;
 let selectedWord;
 let displayHint;
-let attempt;
-let restartButton
+let attempt= 0;
+let restartButton;
+
 function setup(){
     createCanvas(600,400);
     textsize(24);
